@@ -255,4 +255,137 @@ footer {
   .grid-productos {
     grid-template-columns: 1fr;
   }
+  .hero-card form{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.hero-card input{
+
+padding:14px;
+
+border:none;
+
+border-radius:8px;
+
+font-size:16px;
+
+}
+
+.hero-card button{
+
+padding:14px;
+
+background:#00aaff;
+
+border:none;
+
+color:white;
+
+font-weight:bold;
+
+border-radius:8px;
+
+cursor:pointer;
+
+}
+
+.hero-card button:hover{
+
+background:#0088cc;
+
+}
+
+.hero-card a{
+
+color:#00aaff;
+
+text-decoration:none;
+
+}
+
+.hero-card p{
+
+margin-top:10px;
+
+}
+.banco-panel {
+  min-height: 520px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  align-items: center;
+}
+
+.banco-info,
+.banco-form {
+  background: #111827;
+  padding: 35px;
+  border-radius: 18px;
+  border: 1px solid #1f2937;
+}
+
+.banco-info h2 {
+  font-size: 38px;
+  color: #00aaff;
+  margin-bottom: 15px;
+}
+
+.saldo-card {
+  margin-top: 30px;
+  background: #05070d;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #00aaff;
+}
+
+.saldo-card p {
+  font-size: 36px;
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+.banco-form h3 {
+  margin: 20px 0 10px;
+  color: #00aaff;
+}
+
+.banco-form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.banco-form button {
+  width: 100%;
+  padding: 14px;
+  background: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.banco-form button:hover {
+  background: #0088cc;
+}
+
+#resultadoInteres {
+  margin-top: 15px;
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .banco-panel {
+    grid-template-columns: 1fr;
+  }
+}
 }
